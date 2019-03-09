@@ -1,7 +1,8 @@
 
 def levitation_quiz
 	puts "What is the spell that enacts levitation?\n"
-	gets
+	answer = gets.chomp 
+	if answer == "Wen"
 end
 
 
